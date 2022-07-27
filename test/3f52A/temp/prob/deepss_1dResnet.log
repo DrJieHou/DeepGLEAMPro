@@ -1,0 +1,17 @@
+Using TensorFlow backend.
+RuntimeError: module compiled against API version 0xb but this version of numpy is 0xa
+RuntimeError: module compiled against API version 0xb but this version of numpy is 0xa
+2022-05-13 22:33:16.092204: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+WARNING:tensorflow:From /faculty/jhou4/Projects/QA_protein/tools/DNSS2/dnss_venv/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py:993: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From /faculty/jhou4/Projects/QA_protein/tools/DNSS2/dnss_venv/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py:1029: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From /faculty/jhou4/Projects/QA_protein/tools/DNSS2/dnss_venv/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py:1108: calling reduce_mean (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+No GPU found
+######## Loading existing model  /faculty/jhou4/Projects/QA_protein/tools/DNSS2//models//8class/model-train-deepss_1dResnet.json
+######## Loaded model from disk
+######## Loading existing weights  /faculty/jhou4/Projects/QA_protein/tools/DNSS2//models//8class/model-train-weight-deepss_1dResnet-best-val.h5

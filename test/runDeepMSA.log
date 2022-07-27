@@ -1,0 +1,181 @@
+hhlib=/faculty/jhou4/tools/trRosetta/DeepMSA/hhsuite2
+Reading in 13605227 column state sequences with a total of 3626616639 residues
+
+Iteration 1
+Prefiltering database
+.........................................................................................................................................
+HMMs passed 1st prefilter (gapless profile-profile alignment)  : 243736
+HMMs passed 2nd prefilter (gapped profile-profile alignment)   :    744
+HMMs passed 2nd prefilter and not found in previous iterations :    744
+Scoring 744 HMMs using HMM-HMM Viterbi alignment
+.....................................
+Realigning 492 HMMs using HMM-HMM Maximum Accuracy algorithm
+.................................................
+Merging hits to query profile
+236 sequences belonging to 236 database HMMs found with an E-value < 0.001       
+Number of effective sequences of resulting query HMM: Neff = 8.62
+
+Iteration 2
+Prefiltering database
+.........................................................................................................................................
+HMMs passed 1st prefilter (gapless profile-profile alignment)  : 296641
+HMMs passed 2nd prefilter (gapped profile-profile alignment)   :   1967
+HMMs passed 2nd prefilter and not found in previous iterations :   1967
+Scoring 1967 HMMs using HMM-HMM Viterbi alignment
+.................................................. 1000 HMMs searched
+................................................
+Realigning 996 HMMs using HMM-HMM Maximum Accuracy algorithm
+.................................................. 500  HMMs aligned
+.................................................
+Merging hits to query profile
+1019 sequences belonging to 1019 database HMMs found with an E-value < 0.001       
+Number of effective sequences of resulting query HMM: Neff = 9.53
+
+Iteration 3
+Prefiltering database
+.........................................................................................................................................
+HMMs passed 1st prefilter (gapless profile-profile alignment)  : 250258
+HMMs passed 2nd prefilter (gapped profile-profile alignment)   :   2121
+HMMs passed 2nd prefilter and not found in previous iterations :   2121
+Scoring 2121 HMMs using HMM-HMM Viterbi alignment
+.................................................. 1000 HMMs searched
+.................................................. 2000 HMMs searched
+......
+Rescoring previously found HMMs with Viterbi algorithm
+.................................................. 1000 HMMs searched
+
+Realigning 500 HMMs using HMM-HMM Maximum Accuracy algorithm
+.................................................. 500  HMMs aligned
+.................................................
+Merging hits to query profile
+1176 sequences belonging to 1176 database HMMs found with an E-value < 0.001       
+Number of effective sequences of resulting query HMM: Neff = 9.90
+
+Query         seq
+Match_columns 213
+No_of_seqs    9192 out of 14382
+Neff          9.5 
+Searched_HMMs 3139
+Date          Tue Apr 26 00:22:01 2022
+Command       /faculty/jhou4/tools/trRosetta/DeepMSA/hhsuite2/bin/hhblits -i /tmp/jhou4/MSA_8025130805/seq.fasta -diff inf -d /faculty/jhou4/Projects/bio_databases/uniclust30_2017_10/uniclust30_2017_10 -cpu 1 -oa3m /tmp/jhou4/MSA_8025130805/hhblits.a3m -id 99 -cov 50 -o /tmp/jhou4/MSA_8025130805/hhblits.log -n 3 -diff inf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 tr|A0A0A8FQ87|A0A0A8FQ87_9ACTO 100.0 1.8E-72 6.5E-78  426.6   0.0  191    2-213    26-217 (242)
+  2 tr|D6SXC8|D6SXC8_GARVA Probabl 100.0 9.1E-72 3.3E-77  435.0   0.0  211    1-213    47-269 (270)
+  3 tr|G5GF46|G5GF46_9FIRM Probabl 100.0 2.7E-71   1E-76  421.8   0.0  198    3-213     1-200 (202)
+  4 tr|K6Z3S5|K6Z3S5_9ALTE Probabl 100.0 2.9E-71 1.1E-76  426.8   0.0  212    1-213     3-228 (234)
+  5 tr|K1U6M1|K1U6M1_9ZZZZ Putativ 100.0   3E-70 1.1E-75  416.7   0.0  204    1-213     1-206 (210)
+  6 tr|G5GF46|G5GF46_9FIRM Probabl 100.0 4.2E-70 1.7E-75  421.8   0.0  198    3-213     1-200 (202)
+  7 tr|A0A0A8FQ87|A0A0A8FQ87_9ACTO 100.0 5.3E-70   2E-75  426.6   0.0  191    2-213    26-217 (242)
+  8 tr|A0A0M2KM71|A0A0M2KM71_9ENTR 100.0 5.9E-70 2.2E-75  420.1   0.0  212    1-213     5-217 (221)
+  9 tr|D6SXC8|D6SXC8_GARVA Probabl 100.0 8.9E-70 3.4E-75  435.0   0.0  211    1-213    47-269 (270)
+ 10 tr|K6Z3S5|K6Z3S5_9ALTE Probabl 100.0   1E-69 4.1E-75  426.8   0.0  212    1-213     3-228 (234)
+ 11 tr|A0A023X2X1|A0A023X2X1_9ACTN 100.0 1.9E-69 6.6E-75  413.3   0.0  197    2-213    12-210 (250)
+ 12 tr|R5AS44|R5AS44_9BACT Probabl 100.0 1.9E-69   7E-75  408.1   0.0  190    1-213     5-196 (200)
+ 13 tr|M5RES9|M5RES9_9PLAN Probabl 100.0   2E-69 7.4E-75  416.7   0.0  201    2-213    30-231 (255)
+ 14 tr|K1U6M1|K1U6M1_9ZZZZ Putativ 100.0 4.5E-69 1.7E-74  416.7   0.0  204    1-213     1-206 (210)
+ 15 tr|A0A0M2KM71|A0A0M2KM71_9ENTR 100.0   1E-68   4E-74  420.1   0.0  212    1-213     5-217 (221)
+ 16 tr|E6LYA9|E6LYA9_9ACTO Probabl 100.0 1.7E-68 5.8E-74  400.8   0.0  191    2-213    13-204 (249)
+ 17 tr|A0A023X2X1|A0A023X2X1_9ACTN 100.0 4.1E-68 1.5E-73  413.3   0.0  197    2-213    12-210 (250)
+ 18 tr|R5AS44|R5AS44_9BACT Probabl 100.0   4E-68 1.5E-73  408.1   0.0  190    1-213     5-196 (200)
+ 19 tr|M5RES9|M5RES9_9PLAN Probabl 100.0 5.7E-68 2.1E-73  416.7   0.0  201    2-213    30-231 (255)
+ 20 tr|R7YED4|R7YED4_9ACTN Probabl 100.0 1.6E-67 5.6E-73  392.0   0.0  198    2-213     8-208 (259)
+ 21 tr|X1M0L3|X1M0L3_9ZZZZ Unchara 100.0 8.5E-67 3.2E-72  398.4   0.0  197    3-213     1-198 (201)
+ 22 tr|A0A0B7HK65|A0A0B7HK65_9FLAO 100.0 1.1E-66   4E-72  392.8   0.0  193    1-213     2-195 (196)
+ 23 tr|E6LYA9|E6LYA9_9ACTO Probabl 100.0 1.2E-66 4.4E-72  400.8   0.0  191    2-213    13-204 (249)
+ 24 tr|A0A0M2H0Y3|A0A0M2H0Y3_9ACTN 100.0 1.4E-66 4.9E-72  388.9   0.0  191    2-213    54-245 (247)
+ 25 tr|X0SW50|X0SW50_9ZZZZ Unchara 100.0 6.5E-66 2.3E-71  392.9   0.0  205    2-213    13-251 (252)
+ 26 tr|X1M0L3|X1M0L3_9ZZZZ Unchara 100.0 9.2E-66 3.6E-71  398.4   0.0  197    3-213     1-198 (201)
+ 27 sp|B3QYZ5|NADD_CHLT3 Probable  100.0 1.5E-65 5.3E-71  383.6   0.0  192    2-213     1-196 (199)
+ 28 tr|A0A0B7HK65|A0A0B7HK65_9FLAO 100.0 1.4E-65 5.6E-71  392.8   0.0  193    1-213     2-195 (196)
+ 29 tr|Q1IVS4|Q1IVS4_KORVE Probabl 100.0 2.1E-65 7.6E-71  392.5   0.0  211    3-213     1-226 (258)
+ 30 tr|A0A0M2H0Y3|A0A0M2H0Y3_9ACTN 100.0 4.7E-65 1.7E-70  388.9   0.0  191    2-213    54-245 (247)
+ 31 tr|R7YED4|R7YED4_9ACTN Probabl 100.0 6.9E-65 2.5E-70  392.0   0.0  198    2-213     8-208 (259)
+ 32 tr|A0A0Q7X495|A0A0Q7X495_9BURK 100.0 7.7E-65 2.8E-70  384.0   0.0  210    1-213     5-218 (219)
+ 33 sp|B3QYZ5|NADD_CHLT3 Probable  100.0 1.9E-64 7.2E-70  383.6   0.0  192    2-213     1-196 (199)
+ 34 tr|Q1IVS4|Q1IVS4_KORVE Probabl 100.0 2.5E-64 9.1E-70  392.5   0.0  211    3-213     1-226 (258)
+ 35 tr|R6IYU4|R6IYU4_9BACT Probabl 100.0 2.9E-64 1.1E-69  377.2   0.0  187    1-213     1-189 (193)
+ 36 tr|A0A011PX06|A0A011PX06_9PROT 100.0 5.6E-64   2E-69  376.4   0.0  210    1-213     1-214 (216)
+ 37 tr|A0A1C6VJL9|A0A1C6VJL9_9ACTN 100.0 8.7E-64   3E-69  365.2   0.0  192    2-213     5-207 (230)
+ 38 tr|B1XVJ8|B1XVJ8_POLNS Probabl 100.0 9.8E-64 3.4E-69  373.8   0.0  213    1-213     8-239 (239)
+ 39 tr|A0A0G1TXX0|A0A0G1TXX0_9BACT 100.0 1.3E-63 4.6E-69  374.6   0.0  186    1-213     5-192 (196)
+ 40 tr|A1AVZ8|A1AVZ8_RUTMC Probabl 100.0 1.4E-63 4.8E-69  374.4   0.0  202    1-209     8-225 (225)
+ 41 tr|R7CBY2|R7CBY2_9CLOT Nicotin 100.0 1.4E-63   5E-69  401.6   0.0  198    3-213     1-199 (398)
+ 42 tr|X0SW50|X0SW50_9ZZZZ Unchara 100.0 1.4E-63 5.3E-69  392.9   0.0  205    2-213    13-251 (252)
+ 43 tr|A0A0Q7X495|A0A0Q7X495_9BURK 100.0 1.4E-63 5.4E-69  384.0   0.0  210    1-213     5-218 (219)
+ 44 tr|A0A166V1Z8|A0A166V1Z8_LACLC 100.0 2.2E-63 7.6E-69  363.7   0.0  178    2-213    22-199 (199)
+ 45 tr|R6IYU4|R6IYU4_9BACT Probabl 100.0 3.2E-63 1.2E-68  377.2   0.0  187    1-213     1-189 (193)
+ 46 tr|G3MA22|G3MA22_9CAUD Gp281 O 100.0 9.2E-63 3.3E-68  370.2   0.0  198    2-213     1-209 (212)
+ 47 tr|A0A1C6VJL9|A0A1C6VJL9_9ACTN 100.0   1E-62 3.6E-68  365.2   0.0  192    2-213     5-207 (230)
+ 48 tr|R7CBY2|R7CBY2_9CLOT Nicotin 100.0 1.1E-62 4.1E-68  401.6   0.0  198    3-213     1-199 (398)
+ 49 tr|B1XVJ8|B1XVJ8_POLNS Probabl 100.0 1.3E-62 4.7E-68  373.8   0.0  213    1-213     8-239 (239)
+ 50 tr|A0A011PX06|A0A011PX06_9PROT 100.0 1.5E-62 5.5E-68  376.4   0.0  210    1-213     1-214 (216)
+ 51 tr|A0A0G1TXX0|A0A0G1TXX0_9BACT 100.0 2.1E-62   8E-68  374.6   0.0  186    1-213     5-192 (196)
+ 52 tr|A0A166V1Z8|A0A166V1Z8_LACLC 100.0 3.7E-62 1.3E-67  363.7   0.0  178    2-213    22-199 (199)
+ 53 tr|A1AVZ8|A1AVZ8_RUTMC Probabl 100.0 4.3E-62 1.6E-67  374.4   0.0  202    1-209     8-225 (225)
+ 54 tr|A0A0C7N4U2|A0A0C7N4U2_9THEO 100.0 1.2E-61 4.1E-67  359.6   0.0  200    2-213    56-256 (266)
+ 55 tr|G3MA22|G3MA22_9CAUD Gp281 O 100.0 1.2E-61 4.3E-67  370.2   0.0  198    2-213     1-209 (212)
+ 56 tr|A0A060NV94|A0A060NV94_9BURK 100.0 1.4E-61 4.9E-67  362.6   0.0  196    2-213     8-247 (250)
+ 57 tr|K0CCG1|K0CCG1_ALCDB Probabl 100.0 1.5E-61 5.1E-67  367.0   0.0  206    2-213    17-222 (266)
+ 58 tr|J4VQC7|J4VQC7_9PORP Probabl 100.0 1.4E-61 5.2E-67  363.2   0.0  196    1-213     4-200 (203)
+ 59 tr|A0A0S3TRT4|A0A0S3TRT4_9CYAN 100.0 3.5E-61 1.2E-66  363.5   0.0  202    2-213    50-253 (253)
+ 60 tr|A0A1A5NY63|A0A1A5NY63_9ACTN 100.0 3.6E-61 1.2E-66  360.8   0.0  191    2-213    61-252 (254)
+ 61 tr|A0A0C7N4U2|A0A0C7N4U2_9THEO 100.0 5.1E-61 1.7E-66  359.6   0.0  200    2-213    56-256 (266)
+ 62 tr|K2ER55|K2ER55_9ZZZZ Putativ 100.0 1.2E-60 4.2E-66  346.9   0.0  166    1-213    13-180 (185)
+ 63 tr|K0CCG1|K0CCG1_ALCDB Probabl 100.0 1.3E-60 4.5E-66  367.0   0.0  206    2-213    17-222 (266)
+ 64 tr|J4VQC7|J4VQC7_9PORP Probabl 100.0 1.5E-60 5.6E-66  363.2   0.0  196    1-213     4-200 (203)
+ 65 tr|A0A0S3TRT4|A0A0S3TRT4_9CYAN 100.0 1.8E-60 6.2E-66  363.5   0.0  202    2-213    50-253 (253)
+ 66 tr|Q0F1E3|Q0F1E3_9PROT Probabl 100.0 2.7E-60 9.6E-66  354.2   0.0  199    3-213     1-200 (208)
+ 67 tr|A0A1A5NY63|A0A1A5NY63_9ACTN 100.0 5.5E-60   2E-65  360.8   0.0  191    2-213    61-252 (254)
+ 68 tr|W1VCX4|W1VCX4_9ACTO Probabl 100.0 6.5E-60 2.2E-65  347.7   0.0  191    2-213    45-236 (264)
+ 69 sp|A6LJZ1|NADD_THEM4 Probable  100.0 7.4E-60 2.7E-65  350.6   0.0  194    2-213     4-197 (197)
+ 70 tr|W7USH2|W7USH2_RUMFL Nicotin 100.0 7.4E-60 2.7E-65  386.0   0.0  196    3-213     1-197 (397)
+ 71 tr|A0A060NV94|A0A060NV94_9BURK 100.0   8E-60 2.9E-65  362.6   0.0  196    2-213     8-247 (250)
+ 72 tr|K2ER55|K2ER55_9ZZZZ Putativ 100.0 1.3E-59 4.8E-65  346.9   0.0  166    1-213    13-180 (185)
+ 73 tr|A0A160VPG7|A0A160VPG7_PROFR 100.0 1.7E-59 5.6E-65  348.2   0.0  195    2-213    41-236 (268)
+ 74 tr|Q0F1E3|Q0F1E3_9PROT Probabl 100.0 2.2E-59 8.1E-65  354.2   0.0  199    3-213     1-200 (208)
+ 75 tr|R9KY15|R9KY15_9ACTN Nicotin 100.0 2.7E-59 9.3E-65  373.5   0.0  198    2-213    16-214 (443)
+ 76 tr|B8J3W7|B8J3W7_DESDA Probabl 100.0 3.4E-59 1.2E-64  358.8   0.0  211    1-212    16-234 (246)
+ 77 sp|A6LJZ1|NADD_THEM4 Probable  100.0 5.7E-59 2.1E-64  350.6   0.0  194    2-213     4-197 (197)
+ 78 tr|W7USH2|W7USH2_RUMFL Nicotin 100.0 6.4E-59 2.4E-64  386.0   0.0  196    3-213     1-197 (397)
+ 79 tr|W1VCX4|W1VCX4_9ACTO Probabl 100.0 1.2E-58   4E-64  347.7   0.0  191    2-213    45-236 (264)
+ 80 tr|R9KY15|R9KY15_9ACTN Nicotin 100.0 1.6E-58 5.8E-64  373.5   0.0  198    2-213    16-214 (443)
+ 81 tr|R7IDD4|R7IDD4_9FIRM Nicotin 100.0   2E-58 7.1E-64  371.8   0.0  196    2-213     3-199 (395)
+ 82 tr|A0A0N0Z6X5|A0A0N0Z6X5_9BACI 100.0 2.2E-58 7.8E-64  372.6   0.0  187    2-213     1-188 (392)
+ 83 tr|A0A0S2W5E0|A0A0S2W5E0_9FIRM 100.0 2.3E-58 8.1E-64  371.7   0.0  197    3-213     1-209 (404)
+ 84 sp|A8EWM2|NADD_ARCB4 Probable  100.0 2.2E-58 8.3E-64  344.9   0.0  178    3-211     1-182 (182)
+ 85 tr|A0A160VPG7|A0A160VPG7_PROFR 100.0   3E-58   1E-63  348.2   0.0  195    2-213    41-236 (268)
+ 86 tr|M4VFB7|M4VFB7_9DELT Nicotin 100.0 3.3E-58 1.1E-63  355.9   0.0  209    3-213     1-213 (347)
+ 87 tr|R5WF07|R5WF07_9CLOT Nicotin 100.0 5.1E-58 1.8E-63  367.1   0.0  196    2-213     1-197 (401)
+ 88 tr|B8J3W7|B8J3W7_DESDA Probabl 100.0 5.7E-58 2.1E-63  358.8   0.0  211    1-212    16-234 (246)
+ 89 tr|X8H032|X8H032_9FIRM Nicotin 100.0   1E-57 3.4E-63  364.5   0.0  212    1-213     1-293 (492)
+ 90 tr|A0A0N0Z6X5|A0A0N0Z6X5_9BACI 100.0   1E-57 3.7E-63  372.6   0.0  187    2-213     1-188 (392)
+ 91 tr|M4VFB7|M4VFB7_9DELT Nicotin 100.0 1.1E-57 3.9E-63  355.9   0.0  209    3-213     1-213 (347)
+ 92 tr|R7IDD4|R7IDD4_9FIRM Nicotin 100.0 1.2E-57 4.2E-63  371.8   0.0  196    2-213     3-199 (395)
+ 93 sp|A8EWM2|NADD_ARCB4 Probable  100.0 1.7E-57 6.4E-63  344.9   0.0  178    3-211     1-182 (182)
+ 94 tr|A0A0S2W5E0|A0A0S2W5E0_9FIRM 100.0 2.3E-57 8.3E-63  371.7   0.0  197    3-213     1-209 (404)
+ 95 tr|R5WF07|R5WF07_9CLOT Nicotin 100.0 2.6E-57 9.1E-63  367.1   0.0  196    2-213     1-197 (401)
+ 96 tr|X5DTX8|X5DTX8_9CORY Probabl 100.0 2.8E-57 9.6E-63  339.6   0.0  197    2-213    33-230 (297)
+ 97 tr|J8VD18|J8VD18_PSEPU Probabl 100.0 6.4E-57 2.2E-62  329.8   0.0  204    2-213     7-211 (219)
+ 98 tr|B1C1Y3|B1C1Y3_9FIRM Nicotin 100.0 1.1E-56   4E-62  364.6   0.0  184    2-213     1-186 (366)
+ 99 tr|X5DTX8|X5DTX8_9CORY Probabl 100.0 1.5E-56 5.2E-62  339.6   0.0  197    2-213    33-230 (297)
+100 tr|X8H032|X8H032_9FIRM Nicotin 100.0 1.9E-56 6.5E-62  364.5   0.0  212    1-213     1-293 (492)
+
+Writing A3M alignment to /tmp/jhou4/MSA_8025130805/hhblits.a3m
+Done
+hhlib=/faculty/jhou4/tools/trRosetta/DeepMSA/hhsuite2
+Input file = /tmp/jhou4/MSA_8025130805/hhblits.a3m
+Output file = /tmp/jhou4/MSA_8025130805/hhblits.60.a3m
+Read /tmp/jhou4/MSA_8025130805/hhblits.a3m with 10802 sequences
+Alignment in /tmp/jhou4/MSA_8025130805/hhblits.a3m contains 213 match states
+10138 out of 10802 sequences passed filter (60% min coverage, 99% max pairwise sequence identity)
+Writing A3M alignment to /tmp/jhou4/MSA_8025130805/hhblits.60.a3m
+Done
+/faculty/jhou4/tools/trRosetta/DeepMSA/hhsuite2/scripts/build_MSA.py:318: DeprecationWarning: 'U' mode is deprecated
+  fp=open(query_fasta,'rU')
+created folder /tmp/jhou4/MSA_8025130805
+/faculty/jhou4/tools/trRosetta/DeepMSA/hhsuite2/bin/hhblits -i /tmp/jhou4/MSA_8025130805/seq.fasta -diff inf -d /faculty/jhou4/Projects/bio_databases/uniclust30_2017_10/uniclust30_2017_10 -cpu 1 -oa3m /tmp/jhou4/MSA_8025130805/hhblits.a3m  -id 99 -cov 50 -o /tmp/jhou4/MSA_8025130805/hhblits.log -n 3 -diff inf; grep -v '^>' /tmp/jhou4/MSA_8025130805/hhblits.a3m|sed 's/[a-z]//g' > /tmp/jhou4/MSA_8025130805/hhblits.aln
+/faculty/jhou4/tools/trRosetta/DeepMSA/hhsuite2/bin/hhfilter -i /tmp/jhou4/MSA_8025130805/hhblits.a3m -o /tmp/jhou4/MSA_8025130805/hhblits.60.a3m -id 99 -cov 60; grep -v '^>' /tmp/jhou4/MSA_8025130805/hhblits.60.a3m|sed 's/[a-z]//g' > /tmp/jhou4/MSA_8025130805/hhblits.60.aln
+Final MSA by hhblits with Nf >=129.1
+/faculty/jhou4/tools/trRosetta/DeepMSA/hhsuite2/bin/rmRedundantSeq 99 60 /tmp/jhou4/MSA_8025130805/final.aln > /tmp/jhou4/MSA_8025130805/final.60.aln
+Re-filter final MSA to Nf >= 129.1

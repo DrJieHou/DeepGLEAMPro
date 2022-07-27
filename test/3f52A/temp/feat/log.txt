@@ -1,0 +1,38 @@
+[05/13/2022 22:29:32]  Performing SS train & test using the parameters:
+Outdir: /lab/hou/storage/casp15/FoldEverQA/test/3f52A/
+Iterations: 1
+Reduced: 0
+Skip X: 0
+
+Window: 1
+Pssm: 1
+Pssm_uniref50: 0
+HMMEM: 1
+HMMTR: 1
+aln_sspro: 0
+aln_sspro_unif50: 0
+aln_sspro_unif90: 0
+aln_hhblits: 1
+Atch: 1
+Seq: 0
+Arch: X,X,0
+Boost: 0
+Bound: 0
+
+[05/13/2022 22:29:32]  Generating Testing File...
+[05/13/2022 22:29:32]  Accessing model deepss_1dconv
+[05/13/2022 22:30:19]  Accessing model deepss_1dCRMN
+[05/13/2022 22:30:35]  Accessing model deepss_1dFrac
+[05/13/2022 22:30:52]  Accessing model deepss_1dInception
+[05/13/2022 22:31:08]  Accessing model deepss_1dRCNN
+[05/13/2022 22:31:22]  Accessing model deepss_1dResnet
+[05/13/2022 22:31:37]  Ensemble predictions ...
+[05/13/2022 22:31:37]  3f52A prediction (3-class) successful! Saved to /lab/hou/storage/casp15/FoldEverQA/test/3f52A/3f52A.dnss and /lab/hou/storage/casp15/FoldEverQA/test/3f52A/3f52A.vdnss
+[05/13/2022 22:31:37]  Accessing model deepss_1dconv
+[05/13/2022 22:31:51]  Accessing model deepss_1dCRMN
+[05/13/2022 22:32:05]  Accessing model deepss_1dFrac
+[05/13/2022 22:32:20]  Accessing model deepss_1dInception
+[05/13/2022 22:32:39]  Accessing model deepss_1dRCNN
+[05/13/2022 22:33:04]  Accessing model deepss_1dResnet
+[05/13/2022 22:33:20]  Ensemble predictions ...
+[05/13/2022 22:33:20]  3f52A prediction (8-class) successful! Saved to /lab/hou/storage/casp15/FoldEverQA/test/3f52A/3f52A.ss8.dnss and /lab/hou/storage/casp15/FoldEverQA/test/3f52A/3f52A.ss8.vdnss
