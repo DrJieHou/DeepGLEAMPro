@@ -4,8 +4,11 @@ Updating
 
 
 ### package the tools
+
 ## library for rosetta
+
 source /lab/hou/tools/trRosetta/trRosetta_virenv/bin/activate
+
 pip install --upgrade pip
 pip install keras==2.1.6
 pip install numpy==1.15.2
