@@ -3,11 +3,20 @@
 Updating
 
 
-### package the tools
+# Installation
 
-## library for rosetta
+Clone the repository and install the dependencies listed above.
 
-source /lab/hou/tools/trRosetta/trRosetta_virenv/bin/activate
+# Requirements
+
+(Optional) Install the virtual environment for module installation:
+
+```
+python3 -m venv trRosetta
+source trRosetta/trRosetta_virenv/bin/activate
+```
+
+The prediction pipeline uses Python3 and requires the following modules:
 
 ```
 pip install --upgrade pip
@@ -22,6 +31,14 @@ pip install tensorflow==1.13.1
 pip install biopython
 pip install tensorflow
 ```
+
+
+# Installation
+
+# Dependency
+
+## library for rosetta
+
 
 ## make sure the python version matches the rosetta file
 pip install ./pyrosetta-2022.29+release.fc0fea1-cp39-cp39-linux_x86_64.whl
