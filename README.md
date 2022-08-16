@@ -9,6 +9,7 @@ Updating
 
 source /lab/hou/tools/trRosetta/trRosetta_virenv/bin/activate
 
+```
 pip install --upgrade pip
 pip install keras==2.1.6
 pip install numpy==1.15.2
@@ -20,6 +21,7 @@ pip install --upgrade h5py
 pip install tensorflow==1.13.1
 pip install biopython
 pip install tensorflow
+```
 
 ## make sure the python version matches the rosetta file
 pip install ./pyrosetta-2022.29+release.fc0fea1-cp39-cp39-linux_x86_64.whl
