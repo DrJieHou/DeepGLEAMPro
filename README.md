@@ -1,6 +1,5 @@
 # Deep graph-based learning for estimating the accuracy of protein's model structure
 
-Updating
 
 
 # Installation
@@ -69,14 +68,9 @@ sh ./src/run_rosetta_scores.sh ./test/3d_models/3f52A ./test/rosetta &> ./test/r
 
 # Generate dssp 
 
-
 perl ./src/P5_pdb2dssp_batch.pl ./src/dssp  ./test/3d_models/3f52A  ./test/dssp
 
 perl ./src/P6_dssp2ssa_batch.pl  ./test/dssp  ./test/3f52A.fasta  ./src/dssp2dataset_dnss.pl
-
-
-# 15
-
 
 
 python ./src/generate_feature.py -t '3f52A' -f ./test/3f52A.fasta -s ./test/3f52A/3f52A.ss_DNSS -r ./test/3f52A_rr/3f52A.rr  -p ./test/3f52A/temp/pssm/3f52A.pssm  -d ./test/3d_models/3f52A  -k  ./test/dssp  -e ./test/rosetta  -o ./test/QA_features/3f52A.tsv -w 15
